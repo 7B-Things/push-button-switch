@@ -8,7 +8,7 @@ def run_checks():
     try:
         bottom = build_switch_bottom()
     except:
-        raise(Error, "There was an error building the component")
+        raise Exception("There was an error building the component")
 
     if bottom == None:
-        raise(Error, "There was an error building the component")
+        raise Exception("There was an error building the component")
