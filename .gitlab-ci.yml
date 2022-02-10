@@ -22,4 +22,4 @@ design:
     - conda create -n cadquery
     - source activate cadquery
     - conda install -c conda-forge -c cadquery cadquery=master
-    - python -c "from .checks.manufacturability import run_checks;run_checks()"
+    - python -c "from checks.manufacturability import run_checks;run_checks()"
