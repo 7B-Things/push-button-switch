@@ -1,4 +1,3 @@
-from msilib.schema import Error
 import cadquery as cq
 from ..components.switch_bottom import build_switch_bottom
 
