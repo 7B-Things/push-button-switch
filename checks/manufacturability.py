@@ -1,5 +1,5 @@
 import cadquery as cq
-from ..components.switch_bottom import build_switch_bottom
+from components.switch_bottom import build_switch_bottom
 
 
 def run_checks():
