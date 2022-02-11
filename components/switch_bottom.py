@@ -10,4 +10,4 @@ def build_switch_bottom():
     switch_bottom=switch_bottom.extrude(2.0,combine=True,clean=True,both=False,taper=0.0)
     return switch_bottom
 switch_bottom=build_switch_bottom()
-show_object(switch_bottom)
+
