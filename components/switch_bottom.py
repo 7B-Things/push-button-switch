@@ -34,6 +34,14 @@ def build_switch_bottom():
     switch_bottom=switch_bottom.moveTo(switch_diameter / 4.0,0)
     switch_bottom=switch_bottom.rect(switch_diameter / 2.0,4.5,centered=True,forConstruction=False)
     switch_bottom=switch_bottom.cutBlind(4.5,clean=True,taper=0.0)
+    switch_bottom=switch_bottom.faces("<Z[-4]").workplane(invert=True,centerOption="CenterOfBoundBox")
+    switch_bottom=switch_bottom.polarArray(switch_diameter / 2.0 - 8.0,startAngle=0,angle=360.0,count=3,fill=True,rotate=True)
+    switch_bottom=switch_bottom.polygon(nSides=6,diameter=6.1,forConstruction=False)
+    switch_bottom=switch_bottom.cutBlind(2.3,clean=True,taper=0.0)
+    switch_bottom=switch_bottom.faces("<Z[-5]").workplane(invert=True,centerOption="CenterOfBoundBox")
+    switch_bottom=switch_bottom.polarArray(switch_diameter / 2.0 - 8.0,startAngle=0.0,angle=360.0,count=3,fill=True,rotate=True)
+    switch_bottom=switch_bottom.circle(3.4 / 2.0,forConstruction=False)
+    switch_bottom=switch_bottom.cutThruAll(clean=True,taper=0.0)
     return switch_bottom
 switch_bottom=build_switch_bottom()
 
