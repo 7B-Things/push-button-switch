@@ -22,12 +22,12 @@ def build_switch_body():
     switch_body=switch_body.extrude(body_height,combine=True,clean=True,both=False,taper=0.0)
     switch_body=switch_body.faces("<Z").workplane(invert=True,centerOption="CenterOfBoundBox")
     switch_body=switch_body.polarArray(switch_diameter / 2.0 - 4.0,startAngle=0.0,angle=360.0,count=3,fill=True,rotate=True)
-    switch_body=switch_body.circle(2.5 / 2.0,forConstruction=False)
+    switch_body=switch_body.circle(3.4 / 2.0,forConstruction=False)
     switch_body=switch_body.cutBlind(body_height / 2.0,clean=True,taper=0.0)
-    switch_body=switch_body.faces("<Z").workplane(offset=8.0,invert=True,centerOption="CenterOfBoundBox")
-    switch_body=switch_body.polarArray(switch_diameter / 2.0 - 5.0,startAngle=0.0,angle=360.0,count=3,fill=True,rotate=True)
-    switch_body=switch_body.rect(5.8,6.8,centered=True,forConstruction=False)
-    switch_body=switch_body.cutBlind(3.6,clean=True,taper=0.0)
+    switch_body=switch_body.faces(">Z").workplane(offset=0.0,invert=True,centerOption="CenterOfBoundBox")
+    switch_body=switch_body.polarArray(switch_diameter / 2.0 - 4.0,startAngle=60,angle=360.0,count=3,fill=True,rotate=True)
+    switch_body=switch_body.polygon(nSides=6,diameter=6.1,forConstruction=False)
+    switch_body=switch_body.cutBlind(body_height / 2.0,clean=True,taper=0.0)
     return switch_body
 switch_body=build_switch_body()
 
