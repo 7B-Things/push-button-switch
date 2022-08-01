@@ -3,7 +3,7 @@ import cadquery as cq
 # start_params
 # end_params
 def build_switch_bottom_ext():
-    # meta {"visible":true,"color_r":1,"color_g":0.360784,"color_b":0.05098,"color_a":1}
+    # meta {"visible":true}
     from components.switch_bottom import build_switch_bottom
     switch_bottom=build_switch_bottom()
     switch_bottom=switch_bottom.translate(vec=(0,0,0))
@@ -24,7 +24,7 @@ def build_leve_action_switch_ext():
     # meta {"visible":true,"color_r":0.082031,"color_g":0.078513,"color_b":0.076808,"color_a":1}
     from vendor.lever_action_switch import build_leve_action_switch
     leve_action_switch=build_leve_action_switch()
-    leve_action_switch=leve_action_switch.translate(vec=(0.75,0,6.2))
+    leve_action_switch=leve_action_switch.translate(vec=(0.75,7.0,6.2))
     leve_action_switch=leve_action_switch.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=270.0)
     return leve_action_switch
 leve_action_switch_ext=build_leve_action_switch_ext()
@@ -66,7 +66,7 @@ def build_switch_stem_ext():
 switch_stem_ext=build_switch_stem_ext()
 
 def build_switch_cap_ext():
-    # meta {"visible":true,"color_r":1,"color_g":0.360784,"color_b":0.05098,"color_a":1}
+    # meta {"visible":true}
     from components.switch_cap import build_switch_cap
     switch_cap=build_switch_cap()
     switch_cap=switch_cap.translate(vec=(0,0,15))
