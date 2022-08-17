@@ -3,7 +3,7 @@ import cadquery as cq
 # start_params
 # end_params
 def build_switch_bottom_ext():
-    # meta {"visible":true}
+    # meta {"visible":true,"color_r":1,"color_g":0.36,"color_b":0.05,"color_a":1}
     from components.switch_bottom import build_switch_bottom
     switch_bottom=build_switch_bottom()
     switch_bottom=switch_bottom.translate(vec=(0,0,0))
@@ -20,20 +20,11 @@ def build_switch_pcb_ext():
     return switch_pcb
 switch_pcb_ext=build_switch_pcb_ext()
 
-def build_leve_action_switch_ext():
-    # meta {"visible":true,"color_r":0.082031,"color_g":0.078513,"color_b":0.076808,"color_a":1}
-    from vendor.lever_action_switch import build_leve_action_switch
-    leve_action_switch=build_leve_action_switch()
-    leve_action_switch=leve_action_switch.translate(vec=(0.75,7.0,6.2))
-    leve_action_switch=leve_action_switch.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=270.0)
-    return leve_action_switch
-leve_action_switch_ext=build_leve_action_switch_ext()
-
 def build_audio_connector_ext():
     # meta {"visible":true,"color_r":0.105469,"color_g":0.093494,"color_b":0.087693,"color_a":1}
     from vendor.audio_connector import build_audio_connector
     audio_connector=build_audio_connector()
-    audio_connector=audio_connector.translate(vec=(13.5,0,5.75))
+    audio_connector=audio_connector.translate(vec=(14.5,0,5.75))
     audio_connector=audio_connector.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=0.0)
     return audio_connector
 audio_connector_ext=build_audio_connector_ext()
@@ -48,7 +39,7 @@ def build_audio_plug_ext():
 audio_plug_ext=build_audio_plug_ext()
 
 def build_switch_top_ext():
-    # meta {"visible":true,"color_r":1,"color_g":0.360784,"color_b":0.05098,"color_a":0.537255}
+    # meta {"visible":false,"color_r":1,"color_g":0.36,"color_b":0.05,"color_a":1}
     from components.switch_top import build_switch_top
     switch_top=build_switch_top()
     switch_top=switch_top.translate(vec=(0,0,4.0))
@@ -57,20 +48,38 @@ def build_switch_top_ext():
 switch_top_ext=build_switch_top_ext()
 
 def build_switch_stem_ext():
-    # meta {"visible":true,"color_r":1,"color_g":0.205859,"color_b":0.05,"color_a":1}
+    # meta {"visible":true,"color_r":1,"color_g":0.360784,"color_b":0.05098,"color_a":0.498039}
     from components.switch_stem import build_switch_stem
     switch_stem=build_switch_stem()
     switch_stem=switch_stem.translate(vec=(0,0,22))
-    switch_stem=switch_stem.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=180.0)
+    switch_stem=switch_stem.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=90.0)
     return switch_stem
 switch_stem_ext=build_switch_stem_ext()
 
 def build_switch_cap_ext():
-    # meta {"visible":true}
+    # meta {"visible":false,"color_r":1,"color_g":0.36,"color_b":0.05,"color_a":1}
     from components.switch_cap import build_switch_cap
     switch_cap=build_switch_cap()
     switch_cap=switch_cap.translate(vec=(0,0,15))
     switch_cap=switch_cap.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=0.0)
     return switch_cap
 switch_cap_ext=build_switch_cap_ext()
+
+def build_weurth_switch_ext():
+    # meta {"visible":true,"color_r":0,"color_g":0,"color_b":0,"color_a":1}
+    from vendor.weurth_switch import build_weurth_switch
+    weurth_switch=build_weurth_switch()
+    weurth_switch=weurth_switch.translate(vec=(1.9,0,6.1))
+    weurth_switch=weurth_switch.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=0.0)
+    return weurth_switch
+weurth_switch_ext=build_weurth_switch_ext()
+
+def build_band_mounts_ext():
+    # meta {"visible":true}
+    from components.band_mounts import build_band_mounts
+    band_mounts=build_band_mounts()
+    band_mounts=band_mounts.translate(vec=(0,0,14))
+    band_mounts=band_mounts.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=45.0)
+    return band_mounts
+band_mounts_ext=build_band_mounts_ext()
 
