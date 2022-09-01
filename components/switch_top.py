@@ -24,7 +24,7 @@ def build_switch_top():
     switch_top=switch_top.cutBlind(switch_diameter,clean=True,taper=0.0)
     switch_top=switch_top.faces("|Z").faces(">Z").workplane(offset=0.0,invert=True,centerOption="CenterOfBoundBox")
     switch_top=switch_top.circle(10.0,forConstruction=False)
-    switch_top=switch_top.cutBlind(10.0,clean=True,taper=-60.0)
+    switch_top=switch_top.cutBlind(10.0,clean=True,taper=0.0)
     switch_top=switch_top.faces("|Z").faces("<Z").workplane(offset=0.0,invert=True,centerOption="CenterOfBoundBox")
     switch_top=switch_top.polarArray(switch_diameter / 2.0 - wall_thickness - 1.5,startAngle=-30.0,angle=360.0,count=3,fill=True,rotate=True)
     switch_top=switch_top.circle(3.0,forConstruction=False)

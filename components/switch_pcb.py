@@ -1,7 +1,7 @@
 # Semblage v0.5.0-alpha
 import cadquery as cq
 # start_params
-mounting_holes=[(8.5,10.5,0.0),(8.5,-10.5,0.0),(-8.5,-10.5,0.0),(-8.5,10.5,0.0),] # {"data_type":"tuple","comment":""}
+mounting_holes=[(8.5,9.5,0.0),(8.5,-9.5,0.0),(-8.5,-9.5,0.0),(-8.5,9.5,0.0),] # {"data_type":"tuple","comment":""}
 audio_conn_mounting_holes=[(9.45,5.0,0.0),(11.95,5.0,0.0),(9.45,-5.0,0.0),(11.95,-5.0,0.0),(4.45,0.0,0.0),] # {"data_type":"tuple","comment":""}
 switch_holes=[(-0.5,0,0.0),(-5.58,0.0,0.0),(-10.66,0,0.0),] # {"data_type":"tuple","comment":""}
 # end_params

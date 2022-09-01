@@ -3,7 +3,7 @@ import cadquery as cq
 # start_params
 # end_params
 def build_switch_bottom_ext():
-    # meta {"visible":true,"color_r":1,"color_g":0.36,"color_b":0.05,"color_a":1}
+    # meta {"visible":true,"color_r":1,"color_g":0.360784,"color_b":0.05098,"color_a":0.239216}
     from components.switch_bottom import build_switch_bottom
     switch_bottom=build_switch_bottom()
     switch_bottom=switch_bottom.translate(vec=(0,0,0))
@@ -39,7 +39,7 @@ def build_audio_plug_ext():
 audio_plug_ext=build_audio_plug_ext()
 
 def build_switch_top_ext():
-    # meta {"visible":false,"color_r":1,"color_g":0.36,"color_b":0.05,"color_a":1}
+    # meta {"visible":true,"color_r":1,"color_g":0.36,"color_b":0.05,"color_a":1}
     from components.switch_top import build_switch_top
     switch_top=build_switch_top()
     switch_top=switch_top.translate(vec=(0,0,4.0))
