@@ -1,25 +1,27 @@
 
-M4x10PanSteel:
-    Name: M4x10 Pan Head Steel
+MonoJackHDR_3.5mm:
+    Name: 3.5mm Mono Jack HDR
     Description: >
-        This is lots of text
-        about some screws?
+        Audio jack that accepts a cable that goes to the
+        switch adapter.
     Specs:
-        Head: Pan
-        Length: 10 mm
-        Material: Stainless Steel
-        Pitch: 0.7
+        Standard: 3.5mm, 1/8 in
+        Gender: Female
+        Number of Positions: 2
+        Mounting Style: Chassis (Panel)
+        Orientation: Right Angle
+        Terminal Style: Solder Pin
+        Voltage Rating: 250 V
     Suppliers:
-        RS:
-            PartNo: 528-817
-            Link: https://uk.rs-online.com/web/p/machine-screws/0528817/
-        McMasterCarr:
-            PartNo: 90116A207
-            Link: https://www.mcmaster.com/90116A207
-Screwdriver_Philips_No2:
-    Name: No. 2 Phillips screwdriver
-    Description: >
-        No2 Phillips screwdriver. This is the correct size
-        form an M4 pan head screw
-    Specs:
-        Drive Size: No. 2
+        Mouser:
+            PartNo: 502-35RAPC2AHN2
+            Link: https://www.mouser.com/ProductDetail/Switchcraft/35RAPC2AHN2?qs=tCUFd3%252B19INzghl7tkMgLA%3D%3D
+            Manufacturer: Switchcraft
+        DigiKey:
+            PartNo: 35RAPC2AHN2-ND
+            Link: https://www.digikey.com/en/products/detail/switchcraft-inc/35RAPC2AHN2/1288688
+            Manufacturer: Switchcraft
+        Newark:
+            PartNo: 35RAPC2AHN2
+            Link: https://www.newark.com/switchcraft-conxall/35rapc2ahn2/3-5mm-horz-stereo-jack-rohs/dp/27B9335
+            Manufacturer: Switchcraft
