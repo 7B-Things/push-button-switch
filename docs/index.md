@@ -10,20 +10,12 @@ There are multiple modes for screen scanning software. In one mode, the screen s
 
 There are two main sections of this documentation: electrical and mechanical. The mechanical documentation covers printing all the parts, as well as sourcing and installing fasteners. The electrical section covers the custom circuit board and the components that go on it, as well as two alternative assembly methods. The electrical assembly must be available before the mechanical assembly can be completed.
 
-## Electrical
+## Construction Steps
 
-* [.](electrical/pcb.md){step}
-* [.](electrical/components.md){step}
-* [Assemble Board](electrical/assemble.md){step}
+The two sections below provide instructions for constructing the push button switch.
 
-
-## Mechanical
-
-You should link to a couple of pages:
-
-* [.](mechanical/print.md){step}
-* [.](mechanical/captive_nuts.md){step}
-* [.](mechanical/assemble.md){step}
+* [.](./electrical/electrical.md){step}
+* [.](./mechanical/mechanical.md){step}
 
 ## Licenses
 

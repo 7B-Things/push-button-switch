@@ -48,3 +48,20 @@ Microswitch:
         Newark:
             PartNo: 463091370402
             Link: https://www.newark.com/wurth-elektronik/463091370402/microswitch-spst-2a-30vdc-150gf/dp/75AJ0528
+MonoAudioCable:
+    Name: Mono Audio Cable
+    Description: >
+        Single channel audio cable that is connected to the audio
+        connector on the PCB.
+    Specs:
+        Connector End A: 3.5mm Mono Plug
+        Connector End B: 3.5mm Mono Plug
+        Number of Conductors: 1
+        Cable Length: 3 ft (~0.9 m) but can be any length needed
+    Suppliers:
+        Mouser:
+            PartNo: 172-2137
+            Link: https://www.mouser.com/ProductDetail/Kobiconn/172-2137?qs=RH7ho1lbOmkh0XWxiQP0bA%3D%3D
+        Newark:
+            PartNo: 67C4144
+            Link: https://www.newark.com/pro-signal/psg00108/audio-video-cable-jack-to-jack/dp/67C4144?st=3.5mm%20mono%20audio%20cable
