@@ -1,0 +1,30 @@
+3DPrinter:
+    Name: 3D Printer
+    Description: >
+        Any FDM 3D printer should work, provided that it has a large
+        enough build volume to print the switch cap, which is the 
+        largest part. Some 3D printers are listed in the Suppliers
+        section for reference only. No specific 3D printer is required
+        to complete this build.
+    Suppliers:
+        PrusaResearch:
+            PartNo: i3 MK3S+
+            Link: https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/
+        LulzBot:
+            PartNo: TAZ SideKick 289
+            Link: https://www.lulzbot.com/store/taz-sidekick-289-standard-edition-kt-bn0010
+Tweezers:
+    Name: Tweezers
+    Description: >
+        Any tweezers with a tip that is small enough to grab thin
+        strands of plastic should work fine. For the prototypes sharp
+        tweezers that are used to place tiny components on circuit boards
+        worked fine. Tweeezers of this type are specified in the Suppliers
+        section.
+    Suppliers:
+        Mouser:
+            PartNo: 119-18072USA
+            Link: https://www.mouser.com/ProductDetail/Aven/18072USA?qs=uwxL4vQweFNmlSOUY2pBmw%3D%3D
+        JamecoElectronics:
+            PartNo: 253092
+            Link: https://www.jameco.com/z/GCP-017-R-Jameco-BenchPro-Tweezer-Stainless-4-3-Inch-Curved-Fine-Point_253092.html
