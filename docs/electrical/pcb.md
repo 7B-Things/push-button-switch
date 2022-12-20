@@ -4,7 +4,7 @@
 
 ## Sending Files to a Manufacturer
 
-All of the files necessary to have the printed circuit board (PCB) manufactured for you are available as a zip file for download [here](https://7bindustries.com/static/downloads/push_button_switch/v1/push_button_switch_grb.zip). If a manufacturer such as OSHPark is being used, the KiCAD project file can be uploaded directly. That file can be downloaded [here](https://raw.githubusercontent.com/7B-Things/push-button-switch/main/pcb/push-button-switch/push-button-switch.kicad_pcb) (right click and select `Save Link As`). Instructions on uploading files for every manufacturer is beyond the scope of this documentation, but OSHPark will be offered as an example. This is not a direct endorsement of OSHPark, although 7B Industries does use OSHPark to produce finished PCBs.
+All of the files necessary to have the printed circuit board (PCB) manufactured are available as a zip file for download [here](https://7bindustries.com/static/downloads/push_button_switch/v1/push_button_switch_grb.zip). If a manufacturer such as OSHPark is being used, the KiCAD project file can be uploaded directly. That file can be downloaded [here](https://raw.githubusercontent.com/7B-Things/push-button-switch/main/pcb/push-button-switch/push-button-switch.kicad_pcb) (right click and select `Save Link As`). Instructions on uploading files for every manufacturer is beyond the scope of this documentation, but OSHPark will be offered as an example. This is not a direct endorsement of OSHPark, although 7B Industries does use OSHPark to produce finished PCBs.
 
 ### Step 1 - Account Login
 
@@ -32,8 +32,8 @@ When ordering PCBs from online manufacturers, it often takes weeks to receive th
 
 ## Isolation Routing (Optional Advanced DIY Manufacturing)
 
-The PCB has been laid out in such a way that it is possible to use isolation routing on a CNC machine to manufacture it. That is how the initial prototypes are made by 7B Industries. This method should not be attempted unless the user is familiar with CNC machines. This method only provides a board with the proper traces, but does not include solder mask and silkscreen.
+The PCB has been laid out in such a way that it is possible to use isolation routing on a CNC machine to manufacture it. That is how the initial prototypes are made by 7B Industries. This method should not be attempted unless the user is familiar with CNC machines. This method only provides a board with the proper traces, and does not include solder mask and silkscreen.
 
-When isolation routing is attempted, use a v-shaped engraving bit set to the appropriate depth. The traces have 0.508 mm of clearance around them, so by setting the proper depth of the bit and the width of the tool to 0.508 mm, it should be possible to route the board in a single pass. Experimentation is often needed to complete this process effectively though.
+When isolation routing is attempted, use a v-shaped engraving bit set to the appropriate depth. The "appropriate depth" will vary based on the exact bit used and the copper thickness on the copper clad board, and may take some experimentation to determine. The traces have 0.508 mm of clearance around them, so by setting the proper depth of the bit and the width of the tool to 0.508 mm, it should be possible to route the board in a single pass. Experimentation is often needed to complete this process effectively though, and is attempted at your own risk.
 
 ![Board Manufactured via DIY Isolation Routing](../images/Isolation_Routing_DIY_Board.jpg)

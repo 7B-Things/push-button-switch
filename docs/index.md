@@ -1,5 +1,7 @@
 # Push Button Switch
 
+**PLEASE NOTE:** This documentation is a work in progress and will be updated and changed frequently.
+
 ## Introduction
 
 This is a 3D printed switch for many uses, including controlling a computer when used with screen scanning software.
