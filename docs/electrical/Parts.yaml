@@ -1,0 +1,67 @@
+
+MonoJackHDR_3.5mm:
+    Name: 3.5mm Mono Jack HDR
+    Description: >
+        Audio jack that accepts a cable that goes to the
+        switch adapter.
+    Specs:
+        Standard: 3.5mm, 1/8 in
+        Gender: Female
+        Number of Positions: 2
+        Mounting Style: Chassis (Panel)
+        Orientation: Right Angle
+        Terminal Style: Solder Pin
+        Voltage Rating: 250 V
+    Suppliers:
+        Mouser:
+            PartNo: 502-35RAPC2AHN2
+            Link: https://www.mouser.com/ProductDetail/Switchcraft/35RAPC2AHN2?qs=tCUFd3%252B19INzghl7tkMgLA%3D%3D
+        Digi-Key:
+            PartNo: 35RAPC2AHN2-ND
+            Link: https://www.digikey.com/en/products/detail/switchcraft-inc/35RAPC2AHN2/1288688
+        Newark:
+            PartNo: 35RAPC2AHN2
+            Link: https://www.newark.com/switchcraft-conxall/35rapc2ahn2/3-5mm-horz-stereo-jack-rohs/dp/27B9335
+Microswitch:
+    Name: Microswitch SPDT
+    Description: >
+        SPST switch with normally open and normally closed terminals
+        and a pin plunger (no lever).
+    Specs:
+        Series: WS-MITV
+        Type: Micro Switch
+        Contact Form: SPDT
+        Actuator: Plunger
+        Current Rating: 3A
+        Voltage Rating AC: 125 VAC
+        Voltage Rating DC: 30 VDC
+        Operating Force: 150 grams
+        Termination Style: Solder Terminal
+        Mounting Style: PCB Mount
+    Suppliers:
+        Mouser:
+            PartNo: 710-463091370402
+            Link: https://www.mouser.com/ProductDetail/Wurth-Elektronik/463091370402?qs=2WXlatMagcGE3oUbGFw3JQ%3D%3D
+        Digi-Key:
+            PartNo: 732-13715-ND
+            Link: https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/463091370402/10056398?s=N4IgTCBcDaICwDYDMAGAnARiQdhXFEAugL5A
+        Newark:
+            PartNo: 463091370402
+            Link: https://www.newark.com/wurth-elektronik/463091370402/microswitch-spst-2a-30vdc-150gf/dp/75AJ0528
+MonoAudioCable:
+    Name: Mono Audio Cable
+    Description: >
+        Single channel audio cable that is connected to the audio
+        connector on the PCB.
+    Specs:
+        Connector End A: 3.5mm Mono Plug
+        Connector End B: 3.5mm Mono Plug
+        Number of Conductors: 1
+        Cable Length: 3 ft (~0.9 m) but can be any length needed
+    Suppliers:
+        Mouser:
+            PartNo: 172-2137
+            Link: https://www.mouser.com/ProductDetail/Kobiconn/172-2137?qs=RH7ho1lbOmkh0XWxiQP0bA%3D%3D
+        Newark:
+            PartNo: 67C4144
+            Link: https://www.newark.com/pro-signal/psg00108/audio-video-cable-jack-to-jack/dp/67C4144?st=3.5mm%20mono%20audio%20cable

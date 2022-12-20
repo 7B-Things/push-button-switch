@@ -1,0 +1,27 @@
+
+MonoJackHDR_3.5mm:
+    Name: 3.5mm Mono Jack HDR
+    Description: >
+        Audio jack that accepts a cable that goes to the
+        switch adapter.
+    Specs:
+        Standard: 3.5mm, 1/8 in
+        Gender: Female
+        Number of Positions: 2
+        Mounting Style: Chassis (Panel)
+        Orientation: Right Angle
+        Terminal Style: Solder Pin
+        Voltage Rating: 250 V
+    Suppliers:
+        Mouser:
+            PartNo: 502-35RAPC2AHN2
+            Link: https://www.mouser.com/ProductDetail/Switchcraft/35RAPC2AHN2?qs=tCUFd3%252B19INzghl7tkMgLA%3D%3D
+            Manufacturer: Switchcraft
+        DigiKey:
+            PartNo: 35RAPC2AHN2-ND
+            Link: https://www.digikey.com/en/products/detail/switchcraft-inc/35RAPC2AHN2/1288688
+            Manufacturer: Switchcraft
+        Newark:
+            PartNo: 35RAPC2AHN2
+            Link: https://www.newark.com/switchcraft-conxall/35rapc2ahn2/3-5mm-horz-stereo-jack-rohs/dp/27B9335
+            Manufacturer: Switchcraft
