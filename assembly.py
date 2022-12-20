@@ -38,14 +38,14 @@ def build_audio_plug_ext():
     return audio_plug
 audio_plug_ext=build_audio_plug_ext()
 
-def build_switch_top_ext():
+def build_switch_body_ext():
     # meta {"visible":true,"color_r":1,"color_g":0.36,"color_b":0.05,"color_a":1}
-    from components.switch_top import build_switch_top
-    switch_top=build_switch_top()
-    switch_top=switch_top.translate(vec=(0,0,4.0))
-    switch_top=switch_top.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=90.0)
-    return switch_top
-switch_top_ext=build_switch_top_ext()
+    from components.switch_body import build_switch_body
+    switch_body=build_switch_body()
+    switch_body=switch_body.translate(vec=(0,0,4.0))
+    switch_body=switch_body.rotateAboutCenter(axisEndPoint=((0,0,1)),angleDegrees=90.0)
+    return switch_body
+switch_body_ext=build_switch_body_ext()
 
 def build_switch_stem_ext():
     # meta {"visible":true,"color_r":1,"color_g":0.360784,"color_b":0.05098,"color_a":0.498039}
