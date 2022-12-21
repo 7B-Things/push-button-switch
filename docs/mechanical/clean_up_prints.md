@@ -17,13 +17,18 @@ Most plastic strings are easy to remove with [Tweezers]{Qty:1, Cat:Tool}. The st
 
 ## Non-Round Hole
 
-Sometimes plastic will ooze when it should not, and can string across open areas. 3D printers also approximate round holes as a series of lines around a perimeter, so the holes are more like very detailed polygons when viewed closely enough. Most of the time there is no issue with the roundness of a hole, but the one in the picture below is bad enough that it will not let a bolt pass through.
+Sometimes plastic will ooze when it should not, and can string across open areas. 3D printers also approximate round holes as a series of lines around a perimeter, so the holes are more like very detailed polygons when viewed closely enough. Most of the time there is no issue with the roundness of a hole, but sometimes the hole is bad enough that it will not let a bolt pass through.
 
 ![Hole That Is Not Quite Round](../images/mechanical_non_round_hole.jpg)
 
-In this case, a drill bit slightly smaller than the hole can be used to clean the hole up. Be careful not to force a drill bit through the hole that is too large, or the tolerance of the hole may be ruined. It is best not to use a drill to spin the drill bit except in cases where the hole cannot be cleared by running the drill bit by hand.
+In this case, a drill bit can be used to clean up the hole. Be careful not to force a drill bit through the hole that is too large, or the size tolerance of the hole may be altered too much. If using a power drill with the drill bit, be careful not to damage the hole by enlarging it or making it an oval shape.
 
 ## Extra Plastic in Nut Trap
 
+Captive nuts are used throughout this design instead of heatset inserts or simply threading into the plastic. This ensures a durable design without the complications that using heatset inserts can cause. Sometimes there is excess plastic inside the pockets that hold the nuts which can prevent the nuts from pulling down all the way into the pocket. This should be cleaned out with tweezers.
+
+![Extra Plastic in Nut Pockets](../images/mechanical_plastic_in_nut_pockets.jpg)
+
 ## Extra Plastic in Hole
 
+There can sometimes be plastic strings in bolt holes. If the strings are small and light, there is a good chance that they will not cause problems. As long as you are able to insert the bolt into the hole, these can be left alone.
