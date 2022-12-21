@@ -13,7 +13,7 @@ Below is an example of a counter bore hole with an extra plastic string in it. T
 
 ![Counter Bore Hole with Extra Plastic In It](../images/mechanical_plastic_in_counter_bore.jpg)
 
-Most plastic strings are easy to remove with [Tweezers]{Qty:1}. The string in the picture above can be removed by grabbing it with the tweezers and twisting.
+Most plastic strings are easy to remove with [Tweezers]{Qty:1, Cat:Tool}. The string in the picture above can be removed by grabbing it with the tweezers and twisting.
 
 ## Non-Round Hole
 
