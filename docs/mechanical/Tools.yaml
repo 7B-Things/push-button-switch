@@ -28,3 +28,15 @@ Tweezers:
         JamecoElectronics:
             PartNo: 253092
             Link: https://www.jameco.com/z/GCP-017-R-Jameco-BenchPro-Tweezer-Stainless-4-3-Inch-Curved-Fine-Point_253092.html
+HexWrench_1.5mm:
+    Name: 1.5mm Hex (aka Allen) Wrench
+    Description: >
+        A 1.5mm hex wrench is the most likely size to work with the M2 screws.
+        Whether the wrench is L-Key, T-handle or something else should not matter.
+    Suppliers:
+        McMasterCarr:
+            PartNo: 7289A11
+            Link: https://www.mcmaster.com/7289A11/
+        Amazon:
+            PartNo: JB1.5MM
+            Link: https://www.amazon.com/Bondhus-17050-Barcoded-L-Wrench-BriteGuard/dp/B000XLU6BE/
