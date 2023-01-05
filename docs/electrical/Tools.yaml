@@ -1,0 +1,18 @@
+SolderingIron:
+    Name: Soldering Iron
+    Description: >
+        Any pencil soldering iron should work as long as the wattage
+        is not too high. A temperature controlled soldering iron
+        would be best. There are TS style portable soldering irons
+        that have the temperature control built in, and are very convenient
+        to use.
+    Suppliers:
+        Pine64:
+            PartNo: PINECIL-BB2
+            Link: https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/
+        SeeedStudio:
+            PartNo: 110990479
+            Link: https://www.seeedstudio.com/Mini-Soldering-Iron-US-Standard-Shape-BC-p-2494.html
+        Amazon:
+            PartNo: TS100
+            Link: https://www.amazon.com/NovelLife-Soldering-Adjustable-Temperature-Programmable/dp/B07THWRGVW

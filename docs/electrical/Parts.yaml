@@ -65,3 +65,21 @@ MonoAudioCable:
         Newark:
             PartNo: 67C4144
             Link: https://www.newark.com/pro-signal/psg00108/audio-video-cable-jack-to-jack/dp/67C4144?st=3.5mm%20mono%20audio%20cable
+Solder:
+    Name: Solder
+    Description: >
+        Typical rosin core solder should work fine.
+        A smaller diameter can make it easier to make
+        cleaner and smaller solder joints. Do not use
+        lead based solder.
+    Specs:
+        Type: 44 rosin core
+        Diameter: 0.8mm (0.031")
+        Standard: ANSI-J-STD-006 C
+    Suppliers:
+        Mouser:
+            PartNo: 533-24-6040-9709
+            Link: https://www.mouser.com/ProductDetail/Kester/24-6040-9709?qs=sGAEpiMZZMsgi4BqhxuE1fcBywSq7o15AHOfyBm6Y4ZR7wEwX0r29g%3D%3D
+        Newark:
+            PartNo: 35M4362
+            Link: https://www.newark.com/stannol/593410/solder-wire-0-8mm-100g/dp/35M4362?st=0.8mm%20rosin%20core%20solder

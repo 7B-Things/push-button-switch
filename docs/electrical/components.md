@@ -7,6 +7,7 @@ There are two off-the-shelf components that must be ordered in order to assemble
 
 ![Audio Jack](../images/electrical_audio_jack.jpg)
 ![Micro switch](../images/electrical_microswitch.jpg)
+![Mono Audio Cable](../images/electrical_mono_cable.jpg)
 
 Clicking on each of the components in the bill of materials (BOM) below will show suppliers they can be purchased from. If only a single board is being assembled, one of each part is all that is needed. The audio cable can be purchased in any length that is needed for the application. Cables of 0.9m to 1.2m are shown in the BOM as examples only.
 

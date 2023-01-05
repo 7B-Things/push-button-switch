@@ -1,0 +1,86 @@
+Filament:
+    Name: Filament
+    Description: >
+        Other filament types may work, but PLA and PETG have been tested
+        for this switch. PETG should yield better durability, but is not
+        required. The diameter should not matter either, but all switch
+        prototypes have been printed with 1.75mm diameter filament. The
+        color of the filament does not matter.
+    Specs:
+        Type: PLA or PETG
+        Diameter: 1.75mm
+        Color: Any
+    Suppliers:
+        PrusaResearch:
+            PartNo: Prusament PLA Galaxy Silver 1kg
+            Link: https://www.prusa3d.com/product/prusament-pla-galaxy-silver-1kg/
+        PrusaResearch:
+            PartNo: Prusament PETG Prusa Orange 1kg
+            Link: https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/
+M2x16SocketHeadScrew:
+    Name: M2x16mm Socket Head Screw
+    Description: >
+        A standard M2 socket head screw, 16 millimeters long, that is used to pull
+        captive nuts down into their pockets. Button head and other screw head
+        types will work in place of this screw.
+    Specs:
+        Size: M2
+        Style: Socket Head
+        Length: 16mm
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91290A047
+            Link: https://www.mcmaster.com/91290A047/
+        Amazon:
+            PartNo: OCH-945A89DC847200FF9FDAFE8A13F8271D
+            Link: https://www.amazon.com/Ochoos-100pcs-Metric-DIN912-Stainless/dp/B07R4988W6/
+M2HexNut:
+    Name: M2 Hex Nut
+    Description:
+        A standard M2 hex nut with a width (flat to flat) of 4 millimeters so
+        that it will pull down into the captive nut pockets properly.
+    Specs:
+        Size: M2
+        Style: Hex Nut
+        Profile: Standard
+        Width: 4mm
+    Suppliers:
+        McMasterCarr:
+            PartNo: 90591A265
+            Link: https://www.mcmaster.com/90591A265/
+        Amazon:
+            PartNo: a18082200ux0354
+            Link: https://www.amazon.com/uxcell-M2-5x0-45mm-Coarse-Thread-Hexagon/dp/B07H3TGLB8/ref=sr_1_3?crid=28LFNYF9LL7LP
+M2FlatWasher:
+    Name: M2 Flat Washer
+    Description: >
+        A standard M2 flat washer. The outer diameter is not critical since the
+        purpose of this washer is to spread the load out so that the head of the
+        puller screw does not indent into the plastic.
+    Specs:
+        Size: M2
+        OuterDiameter: Any
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91166A180
+            Link: https://www.mcmaster.com/91166A180/
+        Fastenal:
+            PartNo: MW6320000A20000
+            Link: https://www.fastenal.com/product/details/MW6320000A20000
+M3SquareNut:
+    Name: M3 Square Nut
+    Description: >
+        A standard M3 square nut. The width across flats needs to be 5.4mm to 5.5mm so that it
+        will fit properly in the nut trap.
+    Specs:
+        Size: M3
+        Style: Square Nut
+        Thickness: Standard (~2.4mm) or Thin (~1.8mm)
+        Width: 5.4mm to 5.5mm
+    Suppliers:
+        McMasterCarr:
+            PartNo: 97259A101
+            Link: https://www.mcmaster.com/97259A101/ 
+        Amazon:
+            PartNo: a16033100ux0511
+            Link: https://www.amazon.com/uxcell-M3x5-4x2-4mm-Stainless-Square-Machine/dp/B01HSKLC6U/ref=sr_1_9?crid=3UIX7U8VPDJZR

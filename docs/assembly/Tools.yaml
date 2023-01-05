@@ -1,0 +1,24 @@
+HexWrench_1.5mm:
+    Name: 1.5mm Hex (aka Allen) Wrench
+    Description: >
+        A 1.5mm hex wrench is the most likely size to work with the M2 screws.
+        Whether the wrench is L-Key, T-handle or something else should not matter.
+    Suppliers:
+        McMasterCarr:
+            PartNo: 7289A11
+            Link: https://www.mcmaster.com/7289A11/
+        Amazon:
+            PartNo: JB1.5MM
+            Link: https://www.amazon.com/Bondhus-17050-Barcoded-L-Wrench-BriteGuard/dp/B000XLU6BE/
+HexWrench_2.5mm:
+    Name: 2.5mm Hex (aka Allen) Wrench
+    Description: >
+        A 2.5mm hex wrench is the most likely size to work with the M2 screws.
+        Whether the wrench is L-Key, T-handle or something else should not matter.
+    Suppliers:
+        McMasterCarr:
+            PartNo: 7289A13
+            Link: https://www.mcmaster.com/7289a13/
+        Amazon:
+            PartNo: a21082400ux0277
+            Link: https://www.amazon.com/uxcell-2-5mm-Wrench-Shaped-Repairing/dp/B09L4HT2LY/ref=sr_1_12?crid=3KL2IFHV7B3O8

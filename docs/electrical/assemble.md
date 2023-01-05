@@ -1,4 +1,10 @@
+[Soldering Iron]:Tools.yaml#SolderingIron
+[solder]:Parts.yaml#Solder
 # Assemble (Solder)
+
+## Bill of Materials
+
+{{BOM}}
 
 ## Introduction
 
@@ -8,27 +14,31 @@ Once the PCB and electrical components have been obtained, the components can be
 
 Arrange the components on the PCB in the orientation shown in the following image. Notice that the components are placed on the side of the PCB with the silkscreen (white lines and lettering). This will be considered the top side of the PCB from here out, and it is important to place the components on this side of the PCB.
 
-![Electrical Components with Orientation Callouts]()
+![Electrical Components with Orientation Callouts](../images/electrical_component_orientation.jpg)
 
 ## Notes on Audio Connector Placement
 
-Notice that the barrel connector opening on the audio connector faces towards the outside of the board. The audio connector has pegs on the bottom that should fit closely into the non-plated through holes on the PCB. The audio connector should not fit correctly in any other orientation. The collar on the barrel of the connector should just slip past the edge of the PCB so that the connector is flush with the surface of the board. If it looks like the following image, than the connector is interfering with the edge of the PCB.
+Notice that the barrel connector opening on the audio connector hangs over the edge of the board. The audio connector has pegs on the bottom that should fit closely into the non-plated through holes on the PCB. The audio connector should not fit correctly in any other orientation than that shown in the picture. The collar on the barrel of the connector should just slip past the edge of the PCB so that the connector's bottom is flush with the surface of the board. However, there is a minor design flaw with the current PCB that may cause the barrel of the audio connector to interfere with the edge of the board. This prevents the body of the audio connector from laying flush. If the audio connector looks like the following image, than the connector is interfering with the edge of the PCB.
 
-![Electrical Connector That Is Not Seated Properly]()
+![Electrical Connector That Is Not Seated Properly](../images/electrical_gap_between_audio_connector_and_board.jpg)
 
-It is best if the audio connector body is flush with the surface of the PCB so that the collar can take some of the pressure off of the solder joints when the user is plugging in an audio connector.
+It is best if the audio connector body is flush with the surface of the PCB so that the collar can take some of the pressure off of the solder joints when the user is plugging in an audio connector. However, the solder joints should be strong enough to hold the connector in place under normal use connections.
+
+If the audio connector's barrel is interfering and you want to prevent that, you can file a notch in the board directly below the barrel connector. The notch only needs to be 1 millimeter deep and 3 millimeters wide, so be careful not to make it excessively deep, or damage the solder mask, traces, or pads on the board.
+
+![Filed Notch In the PCB For Audio Connector Seating](../images/electrical_notch_in_PCB_for_audio_connector.jpg)
+
+This design flaw will be fixed in later revisions.
 
 ## Notes on Microswitch Placement
 
-The plunger of the microswitch, which is the part that gets pressed so that the switch activates, must be oriented as shown in the image above. The is because the microswitch has two modes of operation. The first is normally open (NO), where the microswitch will not activate and let current flow until the plunger is pushed down. The second is normally closed (NC), where the microswitch will be activated (let current flow) until the plunger is pushed. The push button switch needs to operate in the normally open configuration, and so the switch must be oriented as shown above. If the microswitch is turned 180 degrees, it will be in the normally closed (NC) configuration.
-
-With that said, if there is ever a reason for the push button switch to operate in a normally closed configuration, putting the microswitch in the "wrong" orientation could meet the need. That is one of the great things about open hardware. It is easier to adapt it to individual needs and use cases.
+The plunger of the microswitch, which is the part that gets pressed so that the switch activates, must be oriented as shown in the image above. The microswitch has two modes of operation. The first is normally open (NO), where the microswitch will not activate and let current flow until the plunger is pushed down. The second is normally closed (NC), where the microswitch will be activated (let current flow) until the plunger is pushed. The push button switch is designed to operate in the normally open configuration, and so the switch must be oriented as shown above so that the correct pins are connected. If the microswitch is turned 180 degrees, the switch will not operate properly.
 
 ## Step 2: Secure the Components to the PCB
 
-The components will likely fall out if the PCB is flipped without securing them first. This can be done using a piece of tape placed over the component (never between it and the circuit board) on the top side of the board. Try to get the components as square (aligned) with the edge of the PCB as possible when securing them.
+The components will likely fall out if the PCB is flipped without securing them first. This can be done using a piece of tape placed over the component (never between it and the circuit board) on the top side of the board. Masking tape is likely the best type of tape to use for this purpose. Try to get the components as square (aligned) with the edge of the PCB as possible when securing them.
 
-![Tape On Components to Secure Them]()
+![Tape On Components to Secure Them](../images/electrical_components_secured_with_tape.jpg)
 
 A small amount of hot glue can also be used, but caution must be used to keep from overheating and melting the parts. It is also important not to use something permanent like super glue.
 
@@ -36,11 +46,13 @@ If many of these boards need to be assembled over time, it may be worth investin
 
 ## Step 3: Flip the PCB and Solder
 
-Once the components have been secured, it is time to flip the board over an solder the terminals to the pads on the circuit board. The following image shows which pins need to be soldered.
+Once the components have been secured, it is time to flip the board over and use a pencil [Soldering Iron]{Qty:1, Cat: Tool} and [solder]{Qty:20mm} the terminals to the pads on the circuit board. The following image shows which pins need to be soldered.
 
-![Image of Bottom Side of PCB with Solder Joints Highlighted]()
+![Image of Bottom Side of PCB with Solder Joints Highlighted](../images/electrical_pins_to_solder.jpg)
 
-Be sure to create good solder joints (no cold solder joints) without an excess of solder. If you are new to soldering, there are guides to soldering that can be used as a reference. One example is Adafruit's [guide on making good solder joints](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint), which is part of a [larger guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering) that covers everything a beginner needs to know about soldering.
+Be sure to create good solder joints (no cold solder joints) without an excess of solder. Once all pins have been soldered, the masking tape can be removed.
+
+If you are new to soldering, there are guides to soldering that can be used as a reference. One example is Adafruit's [guide on making good solder joints](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint), which is part of a [larger guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering) that covers everything a beginner needs to know about soldering.
 
 ## Step 4: Inspect the Assembled Board
 
@@ -48,4 +60,19 @@ Once the board is soldered, the assembly is complete. Take a moment of inspect t
 
 The finished board should look something like this.
 
-![Fully Assembled PCB]()
+![Bottom Side of Fully Assembled PCB](../images/electrical_assembled_board_bottom_side.jpg)
+![Top Side of Fully Assembled PCB](../images/electrical_assembled_board_top_side.jpg)
+
+## Step 5: (Optional) Do Continuity Check
+
+Once the circuit board is complete, and if you have a digital multimeter (DMM), a mono audio cable can be plugged into the PCB for testing.
+
+![Mono Audio Cable Plugged into PCB](../images/electrical_mono_audio_cable_plugged_in.jpg)
+
+The plunger is highlighted in the previous picture because it can be pressed to close the switch once the DMM is connected.
+
+A DMM can be connected to the two terminals shown below. One on the tip, and one on the sleeve.You are just connecting continuity, so the polarity will not matter.
+
+![Terminals of Mono Audio Connector](../images/electrical_terminals_of_mono_audio_connector.jpg)
+
+Set the DMM to the continuity check setting and then press the plunger on the microswitch, which is highlighted above. If the DMM shows continuity, the electrical assembly is working correctly.
