@@ -62,3 +62,17 @@ The finished board should look something like this.
 
 ![Bottom Side of Fully Assembled PCB](../images/electrical_assembled_board_bottom_side.jpg)
 ![Top Side of Fully Assembled PCB](../images/electrical_assembled_board_top_side.jpg)
+
+## Step 5: (Optional) Do Continuity Check
+
+Once the circuit board is complete, and if you have a digital multimeter (DMM), a mono audio cable can be plugged into the PCB for testing.
+
+![Mono Audio Cable Plugged into PCB](../images/electrical_mono_audio_cable_plugged_in.jpg)
+
+The plunger is highlighted in the previous picture because it can be pressed to close the switch once the DMM is connected.
+
+A DMM can be connected to the two terminals shown below. One on the tip, and one on the sleeve.You are just connecting continuity, so the polarity will not matter.
+
+![Terminals of Mono Audio Connector](../images/electrical_terminals_of_mono_audio_connector.jpg)
+
+Set the DMM to the continuity check setting and then press the plunger on the microswitch, which is highlighted above. If the DMM shows continuity, the electrical assembly is working correctly.
