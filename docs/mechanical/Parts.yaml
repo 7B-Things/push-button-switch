@@ -18,9 +18,9 @@ Filament:
             PartNo: Prusament PETG Prusa Orange 1kg
             Link: https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/
 M2x16SocketHeadScrew:
-    Name: M2x16 Socket Head Screw
+    Name: M2x16mm Socket Head Screw
     Description: >
-        A standard M2 socket head cap screw, 16 mm long, that is used to pull
+        A standard M2 socket head screw, 16 millimeters long, that is used to pull
         captive nuts down into their pockets. Button head and other screw head
         types will work in place of this screw.
     Specs:
@@ -84,4 +84,3 @@ M3SquareNut:
         Amazon:
             PartNo: a16033100ux0511
             Link: https://www.amazon.com/uxcell-M3x5-4x2-4mm-Stainless-Square-Machine/dp/B01HSKLC6U/ref=sr_1_9?crid=3UIX7U8VPDJZR
-

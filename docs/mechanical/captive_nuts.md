@@ -80,7 +80,19 @@ Install each [M2 Captive Nut]{Qty: 2} as in steps 3 and 4, as always, being sure
 
 Notice that there can be a little deformation at the edges of the stem from where the nuts are pressed in. This is acceptable as long as the deformation is around the outside edge, and not on the top or bottom surface of the stem. In the future the diameter of the switch stem may be increased to prevent this issue.
 
-## Step 5: Install Square Captive Nut
+## Step 5: Install Body Captive Nuts
+
+There are three captive nuts that need to be installed in the switch body, and those will be used to attach the bottom during the final assembly process. The locations of each of the holes are highlighted in the following image.
+
+![Captive Nut Hole Locations in Switch Body](../images/assembly_body_captive_nut_locations.jpg)
+
+Pull an [M2 Captive Nut]{Qty:3} down into each of these pockets using the puller screw technique and the [1.5mm Hex Wrench]{Qty:1} that has been used in other steps. These pockets are deeper than any of the others, and the nuts need to be pulled down to the bottom of each pocket to work correctly during final assembly.
+
+The nut should measure about 4mm from its top to the top of the switch body. The following image shows how deep one of the nuts looks in the pocket.
+
+![Captive Nut Installed in Pocket](../images/assembly_body_captive_nut_installed.jpg)
+
+## Step 6: Install Square Captive Nut
 
 There is one last captive nut to install, and that is in the switch cap. The location is shown in the following image.
 
@@ -95,4 +107,4 @@ The next images show the square nut properly installed in the switch cap.
 ![Square Nut Finished Installation Top View](../images/mechanical_square_nut_installed_in_stem_top_view.jpg)
 ![Square Nut Finished Installation Side View](../images/mechanical_square_nut_installed_in_stem_side_view.jpg)
 
-After that square nut is installed, it is now possible to move on to the [assembly step](assemble.md).
+After that square nut is installed, it is now possible to move on to the [assembly step](../assembly/assemble.md).

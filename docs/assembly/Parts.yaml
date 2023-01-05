@@ -1,0 +1,62 @@
+M2x6SocketHeadScrew:
+    Name: M2x6mm Socket Head Screw
+    Description: >
+        A standard M2 socket head screw, 6 millimeters long.
+    Specs:
+        Size: M2
+        Style: Socket Head
+        Length: 6mm
+        Material: Stainless steel (or others except for plastic/nylon)
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91292A831
+            Link: https://www.mcmaster.com/91292A831/
+        Fastenal:
+            PartNo: MS2460006A20000
+            Link: https://www.fastenal.com/product/details/MS2460006A20000
+M2x12SocketHeadScrew:
+    Name: M2x12mm Socket Head Screw
+    Description: >
+        A standard M2 socket head screw, 12 millimeters long.
+    Specs:
+        Size: M2
+        Style: Socket Head
+        Length: 12mm
+        Material: Stainless steel (or others except for plastic/nylon)
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91292A834
+            Link: https://www.mcmaster.com/91292A834/
+        Fastenal:
+            PartNo: MS2460012A20000
+            Link: https://www.fastenal.com/product/details/MS2460012A20000
+M3x6SocketHeadScrew:
+    Name: M3x6mm Socket Head Screw
+    Description: >
+        A standard M3 socket head screw, 6 millimeters long.
+    Specs:
+        Size: M3
+        Style: Socket Head
+        Length: 6mm
+        Material: Stainless steel (or others except for plastic/nylon)
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91290A111
+            Link: https://www.mcmaster.com/91290A111/
+        Fastenal:
+            PartNo: MS2510006A40000
+            Link: https://www.fastenal.com/product/details/MS2510006A40000
+HeavyQuarterInchRubberBand:
+    Name: 1/4 Inch Heavy Rubber Band
+    Description: >
+        Commonly used as tensioner bands for dental braces, many different sizes of
+        these rubber bands may work, but only the 1/4" size has been tested with the
+        switch.
+    Specs:
+        Size: 1/4 inch
+        Material: Rubber (some may contain latex)
+        Note: Use caution if you have a latex alergy
+    Suppliers:
+        Amazon:
+          PartNo: N1445
+          Link: https://www.amazon.com/Neon-Orthodontic-Elastic-Braces-Dental/dp/B00STEWFL6/ref=sr_1_2?crid=2QSTP6BLS6KS
