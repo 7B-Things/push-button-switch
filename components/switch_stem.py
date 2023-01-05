@@ -22,7 +22,7 @@ def build_switch_stem():
     switch_stem=switch_stem.hole(2.4,depth=None,clean=True)
     switch_stem=switch_stem.faces("|Z").faces(">Z").workplane(offset=0.0,invert=True,centerOption="CenterOfBoundBox")
     switch_stem=switch_stem.pushPoints(hole_points)
-    switch_stem=switch_stem.polygon(nSides=5,diameter=4.5,forConstruction=False)
+    switch_stem=switch_stem.polygon(nSides=5,diameter=4.75,forConstruction=False)
     switch_stem=switch_stem.cutBlind(2.0,clean=True,taper=0.0)
     return switch_stem
 switch_stem=build_switch_stem()

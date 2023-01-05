@@ -35,7 +35,7 @@ def build_switch_body():
     switch_body=switch_body.cutBlind(top_height,clean=True,taper=0.0)
     switch_body=switch_body.faces("|Z").faces(">Z").workplane(offset=0.0,invert=True,centerOption="CenterOfBoundBox")
     switch_body=switch_body.polarArray(switch_diameter / 2.0 - wall_thickness - 1.5,startAngle=30.0,angle=360.0,count=3,fill=True,rotate=True)
-    switch_body=switch_body.polygon(nSides=5,diameter=4.5,forConstruction=False)
+    switch_body=switch_body.polygon(nSides=5,diameter=4.75,forConstruction=False)
     switch_body=switch_body.cutBlind(5.0,clean=True,taper=0.0)
     switch_body=switch_body.faces("|Z").faces("<Z[-3]").workplane(offset=0.0,invert=False,centerOption="CenterOfBoundBox")
     switch_body=switch_body.polarArray(switch_diameter / 2.0 - 12.0,startAngle=45,angle=360.0,count=4,fill=True,rotate=True)
