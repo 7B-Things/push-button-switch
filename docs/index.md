@@ -10,6 +10,8 @@ There are multiple modes for screen scanning software. In one mode, the screen s
 
 There are three main sections of this documentation: mechanical, electrical and final assembly. The mechanical documentation covers 3D printing all the parts, as well as sourcing and installing fasteners. The electrical section covers the custom circuit board and the components that go on it. The final assembly section explains how to fit all of the parts together into the completed switch. The electrical assembly and mechanical sections must be completed before the final assembly can be attempted.
 
+If you have comments or questions while printing, assembling or using this switch, please feel free to join the [switch forum topic](https://discourse.7bindustries.com/t/push-button-switch-discussion/29) or [mailing list](https://groups.io/g/7bhardware).
+
 ## Construction Steps
 
 The sections below provide the instructions for constructing the push button switch.
@@ -17,6 +19,7 @@ The sections below provide the instructions for constructing the push button swi
 * [.](./electrical/electrical.md){step}
 * [.](./mechanical/mechanical.md){step}
 * [.](./assembly/assemble.md){step}
+* [.](./designing_custom_bases.md){step}
 
 ## Bill of Materials
 

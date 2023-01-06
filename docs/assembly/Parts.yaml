@@ -14,6 +14,22 @@ M2x6SocketHeadScrew:
         Fastenal:
             PartNo: MS2460006A20000
             Link: https://www.fastenal.com/product/details/MS2460006A20000
+M2x8SocketHeadScrew:
+    Name: M2x8mm Socket Head Screw
+    Description: >
+        A standard M2 socket head screw, 8 millimeters long.
+    Specs:
+      Size: M2
+      Style: Socket Head
+      Length: 8mm
+      Material:  Stainless steel (or others except for plastic/nylon)
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91292A832
+            Link: https://www.mcmaster.com/91292A832/
+        Fastenal:
+            PartNo: MS2460008A20000
+            Link: https://www.fastenal.com/product/details/MS2460008A20000
 M2x12SocketHeadScrew:
     Name: M2x12mm Socket Head Screw
     Description: >
