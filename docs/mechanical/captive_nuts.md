@@ -5,7 +5,7 @@
 [1.5mm Hex Wrench]:Tools.yaml#HexWrench_1.5mm
 # Add Captive Nuts
 
-This design uses captive nuts instead of threading bolt directly into the plastic, or using heatset inserts. Threading screws directly into plastic, even if the plastic is tapped, makes for a weak connection because the plastic threads strip out easily. Heatset inserts create a very strong connection, but are hard to install squarely into a hole, and tend to cause distortion of the plastic around the insertion site, such as mounding.
+This switch design uses captive nuts instead of threading screws directly into the plastic, or using heatset inserts. Threading screws directly into plastic, even if the plastic is tapped, makes for a weak connection because the plastic threads strip out easily. Heatset inserts create a very strong connection, but are hard to install squarely into a hole, and tend to cause distortion of the plastic around the insertion site, such as mounding.
 
 The M2 nuts will be pulled down into their pockets in this step so that the assembly step can happen more smoothly later.
 
@@ -29,7 +29,7 @@ These are the same holes viewed from the top side.
 
 ![PCB Captive Nut Locations Viewed From the Top Side](../images/mechanical_pcb_mount_nut_pocket_locations_top_view.jpg)
 
-Insert the nut puller screw through the top side of the bottom part, and thread and [M2 Captive Nut]{Qty: 4} onto the end. Thread the nut on until it comes in contact with the pocket.
+Insert the nut puller screw through the top side of the bottom part, and thread an [M2 Captive Nut]{Qty: 4} onto the end. Thread the nut on until it comes in contact with the pocket.
 
 ![Puller Screw Inserted Through Top of Bottom Part of Switch](../images/mechanical_puller_screw_inserted_through_top_of_bottom_part.jpg)
 ![Nut Threaded On and In Contact With Pocket](../images/mechanical_nut_threaded_on_and_in_contact_with_pocket.jpg)
@@ -52,7 +52,7 @@ When all captive nuts are installed, the bottom should look something like this.
 
 There are three holes in the switch bottom which will be used later to attach a mounting base. The intention is for these bases to be designed and printed for each use case. Examples might be a v-block base for mounting the switch to a metal tube, or a flat base with pockets where double stick tape can be applied.
 
-The three mounting base holes are highlighted below.
+The three mounting base captive nut pockets are highlighted below.
 
 ![Mounting Base Captive Nut Locations](../images/mechanical_mounting_captive_nut_locations.jpg)
 

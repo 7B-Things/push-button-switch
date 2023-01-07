@@ -16,7 +16,7 @@ Once that file has been download and the STLs have been extracted, the parts can
 
 Almost any [3D Printer]{Qty:1, Cat: Tool} can be used for printing these parts as long as the printer has a large enough print volume and can achieve the proper amount of detail. For reference, the prototypes were printed on a Prusa i3 Mk2 with a 0.4mm nozzle. Both PLA or PETG types of [Filament]{Qty:20m} have been used to print these parts. PETG will produce more durable parts but is not required.
 
-None of these parts should need supports, but it is usually a good idea to print them with a brim. Using a brim will help maintain flatness on the 3D printer bed during the print. The print settings that were used on the prototypes was a 0.2mm layer height, no support, 20% infill, and the brim was enabled.
+None of these parts should need supports, but it is usually a good idea to print them with a brim. Using a brim will help maintain flatness on the 3D printer bed during the print. The print settings that were used on the prototypes was a 0.2mm layer height, no support, 20% infill, and the brim was enabled. Some of the parts in the STL are not oriented for printing by default. All parts are designed so that the larger flat surface should be placed on the print bed, with no supports needed.
 
 One other setting that is not required but that can help with durability is to increase the number of perimeters, if your software supports it. On the prototypes, the number of perimeters was increased from 2 to 4.
 

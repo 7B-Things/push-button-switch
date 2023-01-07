@@ -1,4 +1,15 @@
 
+PrintedCircuitBoard:
+    Name: Printed Circuit Board
+    Description: >
+        Manufactured circuit board that holds the electrical components for this switch.
+    Specs:
+        Substrate: FR4
+        Layers: 2
+    Suppliers:
+        OSHPark:
+            PartNo: N/A
+            Link: https://oshpark.com/
 MonoJackHDR_3.5mm:
     Name: 3.5mm Mono Jack HDR
     Description: >

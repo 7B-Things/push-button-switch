@@ -3,7 +3,7 @@
 [Mono Audio Cable]:Parts.yaml#MonoAudioCable
 # Order Components
 
-There are two off-the-shelf components that must be ordered in order to assemble the circuit board. The first is an [Audio Jack]{Qty:1}, and the second is a [Microswitch]{Qty:1}. There is also a [Mono Audio Cable]{Qty:1} that is not needed to assemble the circuit board, but will be needed later to connect the switch to a switch adapter. That is shown in the bill of materials at the bottom of this page so that it can be ordered along with the other components.
+There are two off-the-shelf components that must be ordered in order to assemble the circuit board. The first is an [Audio Jack]{Qty:1}, and the second is a [Microswitch]{Qty:1}. There is also a [Mono Audio Cable]{Qty:1} that will be needed later to connect the switch to a switch adapter.
 
 ![Audio Jack](../images/electrical_audio_jack.jpg)
 ![Micro switch](../images/electrical_microswitch.jpg)

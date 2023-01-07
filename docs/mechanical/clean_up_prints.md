@@ -5,7 +5,7 @@
 
 {{BOM}}
 
-The parts should almost be ready to assemble. However, there is often some overflow plastic in the holes, nut traps, or counter-bore holes. Also, some holes may not be round and may be hard to press the screws through. These areas should be cleaned up before doing the assembly step.
+The parts should almost be ready to assemble. However, there is often some extra plastic in the holes, nut traps, or counter-bore holes. These areas should be cleaned up before doing the assembly step.
 
 ## Extra Plastic in Counter-Bore
 
@@ -17,7 +17,7 @@ Most plastic strings are easy to remove with [Tweezers]{Qty:1, Cat:Tool}. The st
 
 ## Non-Round Hole
 
-Sometimes plastic will ooze when it should not, and can string across open areas. 3D printers also approximate round holes as a series of lines around a perimeter, so the holes are more like very detailed polygons when viewed closely enough. Most of the time there is no issue with the roundness of a hole, but sometimes the hole is bad enough that it will not let a bolt pass through.
+Sometimes plastic will ooze during a move of the print head when it should not, and can string across open areas. Most of the time there is no issue with the roundness of a hole, but sometimes the hole is bad enough that it will not let a bolt pass through.
 
 ![Hole That Is Not Quite Round](../images/mechanical_non_round_hole.jpg)
 
@@ -25,10 +25,10 @@ In this case, a drill bit can be used to clean up the hole. Be careful not to fo
 
 ## Extra Plastic in Nut Trap
 
-Captive nuts are used throughout this design instead of heatset inserts or simply threading into the plastic. This ensures a durable design without the complications that using heatset inserts can cause. Sometimes there is excess plastic inside the pockets that hold the nuts which can prevent the nuts from pulling down all the way into the pocket. This should be cleaned out with tweezers.
+Captive nuts are used throughout this design instead of heatset inserts or simply threading into the plastic. This ensures a durable design without the complications that using heatset inserts can cause. Sometimes there is excess plastic inside the nut pockets which can prevent the nuts from pulling all the way down into the pocket. This should be cleaned out with tweezers.
 
 ![Extra Plastic in Nut Pockets](../images/mechanical_plastic_in_nut_pockets.jpg)
 
-## Extra Plastic in Hole
+## Light Plastic Strings in Hole
 
-There can sometimes be plastic strings in bolt holes. If the strings are small and light, there is a good chance that they will not cause problems. As long as you are able to insert the bolt into the hole, these can be left alone.
+There can sometimes be plastic strings in bolt holes. If the strings are small and light, there is a good chance that they will not cause problems. As long as you are able to insert the bolt into the hole, these can usually be left alone.

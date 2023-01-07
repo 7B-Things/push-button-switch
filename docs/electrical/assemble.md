@@ -8,7 +8,7 @@
 
 ## Introduction
 
-Once the PCB and electrical components have been obtained, the components can be soldered onto the board. Orientation of these components, especially the microswitch are important. Pay special attention to the position of the plunger when the switch is placed on the board.
+Once the PCB (printed circuit board) and electrical components have been obtained, the components can be soldered onto the board. Orientation of these components is important, and will be explained below.
 
 ## Step 1: Placing Parts
 
@@ -22,7 +22,7 @@ Notice that the barrel connector opening on the audio connector hangs over the e
 
 ![Electrical Connector That Is Not Seated Properly](../images/electrical_gap_between_audio_connector_and_board.jpg)
 
-It is best if the audio connector body is flush with the surface of the PCB so that the collar can take some of the pressure off of the solder joints when the user is plugging in an audio connector. However, the solder joints should be strong enough to hold the connector in place under normal use connections.
+It is best if the audio connector body is flush with the surface of the PCB so that the collar can take some of the pressure off of the solder joints when the user is plugging in an audio connector. However, the solder joints should be strong enough to hold the connector in place under normal use conditions.
 
 If the audio connector's barrel is interfering and you want to prevent that, you can file a notch in the board directly below the barrel connector. The notch only needs to be 1 millimeter deep and 3 millimeters wide, so be careful not to make it excessively deep, or damage the solder mask, traces, or pads on the board.
 
@@ -32,17 +32,17 @@ This design flaw will be fixed in later revisions.
 
 ## Notes on Microswitch Placement
 
-The plunger of the microswitch, which is the part that gets pressed so that the switch activates, must be oriented as shown in the image above. The microswitch has two modes of operation. The first is normally open (NO), where the microswitch will not activate and let current flow until the plunger is pushed down. The second is normally closed (NC), where the microswitch will be activated (let current flow) until the plunger is pushed. The push button switch is designed to operate in the normally open configuration, and so the switch must be oriented as shown above so that the correct pins are connected. If the microswitch is turned 180 degrees, the switch will not operate properly.
+The plunger of the microswitch, which is the part that gets pressed so that the switch activates, must be oriented as shown in the image at the top of the documentation. The microswitch has two modes of operation. The first is normally open (NO), where the microswitch will not activate and let current flow until the plunger is pushed down. The second is normally closed (NC), where the microswitch will be activated (let current flow) until the plunger is pushed. The push button switch is designed to operate in the normally open configuration, and so the switch must be oriented as shown above so that the correct pins are connected. If the microswitch is turned 180 degrees, the switch will not operate properly. The incorrect orientation will also put the plunger in the wrong position to be depressed by the stem of the switch when the cap is pressed down.
 
 ## Step 2: Secure the Components to the PCB
 
-The components will likely fall out if the PCB is flipped without securing them first. This can be done using a piece of tape placed over the component (never between it and the circuit board) on the top side of the board. Masking tape is likely the best type of tape to use for this purpose. Try to get the components as square (aligned) with the edge of the PCB as possible when securing them.
+The components will likely fall out if the PCB is flipped for soldering without securing them first. This can be done using a piece of tape placed over the component (never between it and the circuit board) on the top side of the board. Masking tape is likely the best type of tape to use for this purpose. Try to get the components as square (aligned) with the edge of the PCB as possible when securing them.
 
 ![Tape On Components to Secure Them](../images/electrical_components_secured_with_tape.jpg)
 
-A small amount of hot glue can also be used, but caution must be used to keep from overheating and melting the parts. It is also important not to use something permanent like super glue.
+A small amount of hot glue can also be used to hold the components in place, but caution must be used to keep from overheating and melting the parts. It is also important not to use something permanent like super glue.
 
-If many of these boards need to be assembled over time, it may be worth investing in a PCB assembly frame like [this one](http://www.fortex.co.uk/product/pcb-assembly-jig-pcsa1/) or, better yet, building your own such as [this 3D printed one](https://www.printables.com/model/154975-circuit-board-assembly-holder) or [this aluminum extrusion one](https://www.nutsvolts.com/magazine/article/september2011_Collier).
+If many of these boards need to be assembled over time, it may be worth investing in a PCB assembly frame like [this one](http://www.fortex.co.uk/product/pcb-assembly-jig-pcsa1/) or, better yet, building your own such as [this 3D printed one](https://www.printables.com/model/154975-circuit-board-assembly-holder) or [this aluminum extrusion unit](https://www.nutsvolts.com/magazine/article/september2011_Collier).
 
 ## Step 3: Flip the PCB and Solder
 
@@ -69,10 +69,10 @@ Once the circuit board is complete, and if you have a digital multimeter (DMM), 
 
 ![Mono Audio Cable Plugged into PCB](../images/electrical_mono_audio_cable_plugged_in.jpg)
 
-The plunger is highlighted in the previous picture because it can be pressed to close the switch once the DMM is connected.
+The plunger is highlighted in the previous picture because it can be pressed to close the switch for the test once the DMM is connected.
 
-A DMM can be connected to the two terminals shown below. One on the tip, and one on the sleeve.You are just connecting continuity, so the polarity will not matter.
+A DMM can be connected to the two terminals shown below. One on the tip, and one on the sleeve.You are just checking continuity, so the polarity will not matter.
 
 ![Terminals of Mono Audio Connector](../images/electrical_terminals_of_mono_audio_connector.jpg)
 
-Set the DMM to the continuity check setting and then press the plunger on the microswitch, which is highlighted above. If the DMM shows continuity, the electrical assembly is working correctly.
+Set the DMM to the continuity check setting and then press the plunger on the microswitch, which is highlighted in the first image in this section. If the DMM shows continuity, the electrical assembly is working correctly.
