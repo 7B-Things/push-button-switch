@@ -1,4 +1,7 @@
+**NOTE:** This repository has been migrated to another location and is now archived. Here is a [link to the new location](https://codeberg.org/7BIndustries/push-button-switch).
+
 # push-button-switch
+
 A 3D printed push button switch.
 
 ## Contributing
